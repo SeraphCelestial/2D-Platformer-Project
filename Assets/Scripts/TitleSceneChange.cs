@@ -12,6 +12,10 @@ public class TitleSceneChange : MonoBehaviour
 			SceneManager.LoadScene("Level 1");
             GameController.playerDeathCount = 0;
         }
+		if(Input.GetKeyDown(KeyCode.Escape))
+		{
+			Application.Quit();
+		}
 	}
 
 }

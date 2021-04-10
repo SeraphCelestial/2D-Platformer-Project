@@ -49,5 +49,10 @@ public class CheatKeybinds : MonoBehaviour
         {
             SceneManager.LoadScene("True Credits");
         }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Title");
+        }
     }
 }
